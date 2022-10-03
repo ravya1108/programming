@@ -5,7 +5,7 @@ int main(){
     char str1[12]="off";
     char str2[55]="Lift";
     char str3[20];
-    strcat(str1,str2);
+    str(str1,str2);
     printf("%s\n",str1);
     int j=0;
     while (str1[j]!='\0')
