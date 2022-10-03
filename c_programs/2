@@ -15,7 +15,7 @@ int main(){
             odd=odd+num[i];
         }
     }
-    pri("sum of even numbers is : %d\n",even);
+    printf("sum of even numbers is : %d\n",even);
     printf("sum of odd numbers is : %d",odd);
     return 0;
 }
